@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class RegisterViewController : UIViewController{
     
@@ -21,6 +22,16 @@ class RegisterViewController : UIViewController{
         super.didReceiveMemoryWarning()
     }
     
-    @IBOutlet weak var registerButtonPressed: UIButton!
+    @IBAction func registerPressed(_ sender: UIButton) {
+        Auth.auth().createUser(withEmail: email.text!, password: password.text!) { (user, error) in
+            if error != nil {
+                print(error!)
+            } else {
+                print("user created successfully")
+                self.performSegue(withIdentifier: "goToDashboard", sender: self)
+            }
+            
+        }
+    }
     
 }

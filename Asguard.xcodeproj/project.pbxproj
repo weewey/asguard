@@ -14,6 +14,7 @@
 		83425DFE2020CF7C0056535B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83425DFD2020CF7C0056535B /* Assets.xcassets */; };
 		83425E012020CF7C0056535B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83425DFF2020CF7C0056535B /* LaunchScreen.storyboard */; };
 		8384749C20237FDB00B00ADD /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8384749B20237FDB00B00ADD /* SectionHeader.swift */; };
+		83A54D292026F10F00B016EF /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A54D282026F10F00B016EF /* DashboardController.swift */; };
 		83EF12B02024DD3300D13612 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF12AF2024DD3300D13612 /* RegisterViewController.swift */; };
 		83EF12B42024EA0A00D13612 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF12B32024EA0A00D13612 /* LoginViewController.swift */; };
 		83EF12B62024F30700D13612 /* TrainingFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF12B52024F30700D13612 /* TrainingFormViewController.swift */; };
@@ -32,6 +33,7 @@
 		83425E002020CF7C0056535B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83425E022020CF7C0056535B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8384749B20237FDB00B00ADD /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		83A54D282026F10F00B016EF /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
 		83EF12AF2024DD3300D13612 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		83EF12B32024EA0A00D13612 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		83EF12B52024F30700D13612 /* TrainingFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingFormViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				83425DF62020CF7C0056535B /* AppDelegate.swift */,
 				83425DF82020CF7C0056535B /* WelcomeViewController.swift */,
 				83EF12B52024F30700D13612 /* TrainingFormViewController.swift */,
+				83A54D282026F10F00B016EF /* DashboardController.swift */,
 				83EF12AF2024DD3300D13612 /* RegisterViewController.swift */,
 				83EF12B32024EA0A00D13612 /* LoginViewController.swift */,
 			);
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A54D292026F10F00B016EF /* DashboardController.swift in Sources */,
 				83EF12B02024DD3300D13612 /* RegisterViewController.swift in Sources */,
 				8384749C20237FDB00B00ADD /* SectionHeader.swift in Sources */,
 				83EF12B62024F30700D13612 /* TrainingFormViewController.swift in Sources */,

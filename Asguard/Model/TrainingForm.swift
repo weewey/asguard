@@ -8,10 +8,3 @@
 
 import Foundation
 
-class TrainingForm {
-    
-    var date : Date
-    var distance : Float
-    var comments : String
-    
-}
