@@ -13,6 +13,15 @@ class TrainingFormViewController : FormViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //TODO: RUN SECTION, DATE, DISTANCE, PACE, DIFFICULTY, COMMENTS
+        loadForm()
+        let fbclient = FirebaseClient()
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    func loadForm() {
         let todayDate = Date()
         form +++ Section("Run")
             <<< DateRow(){
@@ -47,7 +56,6 @@ class TrainingFormViewController : FormViewController {
         rowKeyboardSpacing = 20
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
+    
+
 }
