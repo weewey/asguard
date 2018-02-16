@@ -18,8 +18,8 @@
 		83EF12B02024DD3300D13612 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF12AF2024DD3300D13612 /* RegisterViewController.swift */; };
 		83EF12B42024EA0A00D13612 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF12B32024EA0A00D13612 /* LoginViewController.swift */; };
 		83EF12B62024F30700D13612 /* TrainingFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF12B52024F30700D13612 /* TrainingFormViewController.swift */; };
-		83EF12B82024F35500D13612 /* TrainingForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF12B72024F35500D13612 /* TrainingForm.swift */; };
 		EB4FAEEB0EBB1BEB1995FC58 /* Pods_Asguard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD6879EA459F4F5E888AF1B /* Pods_Asguard.framework */; };
+		FDD65600202EEADF00A22260 /* FirebaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD655FF202EEADF00A22260 /* FirebaseClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +37,9 @@
 		83EF12AF2024DD3300D13612 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		83EF12B32024EA0A00D13612 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		83EF12B52024F30700D13612 /* TrainingFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingFormViewController.swift; sourceTree = "<group>"; };
-		83EF12B72024F35500D13612 /* TrainingForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingForm.swift; sourceTree = "<group>"; };
 		8BD6879EA459F4F5E888AF1B /* Pods_Asguard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Asguard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E314C391B1D55E1670FC932A /* Pods-Asguard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asguard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Asguard/Pods-Asguard.debug.xcconfig"; sourceTree = "<group>"; };
+		FDD655FF202EEADF00A22260 /* FirebaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +92,7 @@
 		83425DF52020CF7C0056535B /* Asguard */ = {
 			isa = PBXGroup;
 			children = (
+				FDD655FE202EEA0B00A22260 /* Stores */,
 				8344AD402020D575001C149D /* Model */,
 				8344AD422020D580001C149D /* Controllers */,
 				8344AD412020D57B001C149D /* View */,
@@ -103,7 +104,6 @@
 		8344AD402020D575001C149D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				83EF12B72024F35500D13612 /* TrainingForm.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,6 +147,14 @@
 				8384749B20237FDB00B00ADD /* SectionHeader.swift */,
 			);
 			path = SectionHeader;
+			sourceTree = "<group>";
+		};
+		FDD655FE202EEA0B00A22260 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				FDD655FF202EEADF00A22260 /* FirebaseClient.swift */,
+			);
+			path = Stores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +306,7 @@
 				83425DF92020CF7C0056535B /* WelcomeViewController.swift in Sources */,
 				83425DF72020CF7C0056535B /* AppDelegate.swift in Sources */,
 				83EF12B42024EA0A00D13612 /* LoginViewController.swift in Sources */,
-				83EF12B82024F35500D13612 /* TrainingForm.swift in Sources */,
+				FDD65600202EEADF00A22260 /* FirebaseClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
